@@ -29,6 +29,8 @@ body{
     padding: 0;
     overflow: hidden;
     background-color:#96CEB4;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 li {
   display: inline-block;
@@ -165,17 +167,12 @@ li {
   }
   .code{
     width: 100px;
-    height: 100px;
+    height: 50px;
   }
   .navBar{
     padding: 10px;
     background-color:#96CEB4 ;
   }
-
-.flex-container{
-  display: block;
-  flex-wrap: wrap;
-}
   div.gallery {
       margin-top: 40px;
       border: 1px solid #ccc;
@@ -192,31 +189,8 @@ li {
       /* object-fit: fill; */
     }
     
-  div.desc {
-      padding: 15px;
-      text-align: center;
-    }
-    
-  * {
-      box-sizing: border-box;
-    }
-    
   .responsive {
-      padding: 0 6px;
+      padding: 10px 55px;
       float: left;
       width: 24.99999%;
     }
-    
-  @media only screen and (max-width: 700px) {
-      .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-      }
-    }
-    
-  @media only screen and (max-width: 500px) {
-      .responsive {
-        width: 100%;
-      }
-    }
-     
